@@ -1,4 +1,4 @@
-# Review-opinion-diversification
+# Review-Opinion-Diversification
 
 The principal aim of the this task is to produce, for each product, top-k reviews from a given set
 of reviews such that these (k) selected reviews act as a summary of all the reviews expressed in
