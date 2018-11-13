@@ -1,19 +1,17 @@
-# Review-Opinion-Diversification
+# Review Opinion Diversification
+A project I worked on in my 3rd Semester. [RevOpiD](https://sites.google.com/itbhu.ac.in/revopid-2017/home) was a shared task in IJCNLP 2017, Taipei, Taiwan.
 
-The principal aim of the this task is to produce, for each product, top-k reviews from a given set
-of reviews such that these (k) selected reviews act as a summary of all the reviews expressed in
-the reviews set.
-extracting both the explicitly and implicitly
-mentioned opinions and product features in the review set.
-Also tried to incorporate techniques like Topic Modelling and Sentence Clustering to improve
-the baseline and reach to some more satisfactory and better results.
+I implemented three approaches of solving the problem -
 
-you just need to run the makefile.
+Opinion Feature Mining (Mining Opinion Features in Customer Reviews (Liu et al.))
+Doc2Vec Model and Clustering
+Facebook Research's InferSent model for sebtence embeddings with Clustering
+Implicit Feature Detection
+Three clustering techniques were tried -
 
-after the execution of the makefile is over, you can see the sentences it has flagged for the presence of implicit features and the implicit feature it has predicted in that sentence in there 'final_answers.txt' file.
+This project was done under the guidance of [Dr. A.K. Singh](https://www.iitbhu.ac.in/dept/cse/people/aksinghcse), Associate Professor, Department of Computer Science and Engineering, IIT (BHU) Varanasi.
 
-run 'make' command from the terminal. 
-
+Also, special thanks to [Avijit Thawani](https://avi-jit.github.io/) for his mentorship and the intersting ideas he provided to solve the problems I faced in the way.
 
 
 
